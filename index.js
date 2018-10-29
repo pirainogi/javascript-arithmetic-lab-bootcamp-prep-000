@@ -27,3 +27,7 @@ function makeInt(n){
  number = parseInt(n, 10)
  return number
 }
+function preserveDecimal(n){
+  number = parseFloat(n)
+  return NaN
+}
